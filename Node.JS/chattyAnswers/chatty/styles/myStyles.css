@@ -1,0 +1,43 @@
+.myDate {
+	font-size: 10px;
+	color: red;
+}
+
+.myPost {
+	border: thin solid darkgray;
+	border-radius: 5px;
+	margin: 10px;
+	box-sizing: border-box;
+	padding: 10px;
+	min-width: 175px;
+}
+
+.myUsername {
+	color: blue;
+	font-variant: small-caps;
+}
+
+.postRight {
+	float: right;
+	width: 80%;
+}
+
+.postLeft {
+	float: left;
+	width: 20%;
+}
+
+
+.jumbotron {
+	min-width: 200px;
+}
+
+
+.floatfix:before, .floatfix:after {
+	content: " ";
+	display: block;
+}
+
+.floatfix:after {
+	clear: both;
+}

@@ -1,0 +1,33 @@
+// Initialize an App called myApp
+<html>
+<head>
+</head>
+<body>
+</body>
+</html>
+
+//Create the javascript to initialize the the app
+
+
+//get that same app back out to use
+
+
+*****************************************************
+// Initialize an App call devMtnApp
+
+
+// Create the javascript side for that app
+
+
+// get that same app back out to use
+
+
+*****************************************************
+// Initialize an App call tAppDance that uses a dependency called ng-route
+
+
+// Create the javascript side for that app
+
+
+// get that same app back out to use
+

@@ -1,0 +1,29 @@
+<div ng-controller="MessageCtrl">
+<div class="header">
+  <h3 class="text-muted">chatty</h3>
+</div>
+
+<h4>Latest Chats:</h4>
+<div class="jumbotron">
+  <div ng-repeat="message in messages" class='myPost floatfix'>
+    <div class='postLeft'>
+    
+    <img ng-src="{{message.image}}" width='100px' height="100px" alt='image'/>
+    </div>
+    <div class='postRight'>
+      <span class='myUsername'>{{message.user}}</span>
+      {{message.message}}<br/>
+      <span class='myDate'>{{message.timestamp | date}}</span>:
+    </div>
+  </div>
+</div>
+<form ng-submit="sendMessage(newMessage)">
+  <input type='text' placeholder='message' ng-model="newMessage"/>
+  <button type='submit'>Send</button>
+</form>
+
+<br/>
+<h3>Your Information</h3>
+<input type='text' ng-model='myUsername' placeholder="username"/><br/>
+<input type="text" ng-model='myImageUrl' placeholder="image (URL ONLY)"/>
+</div>

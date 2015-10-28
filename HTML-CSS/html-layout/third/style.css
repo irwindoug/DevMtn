@@ -1,0 +1,37 @@
+.top{
+    background-color: #D8D8D8;
+    padding: 10px 15px 10px;
+}
+
+.box{
+    background-color: #4A90E2;
+    width: 70px;
+    height: 70px;
+    margin-left: 20px;
+}
+
+p{
+    margin: 40px;
+    font-family: Arial;
+}
+
+div div{
+    height: 100px;
+    width: 100%;
+}
+
+.blue{
+    background-color: #4A90E2;
+}
+
+.teal{
+    background-color: #50E3C2;
+}
+
+.green{
+    background-color: #B8E986;
+}
+
+.yellow{
+    background-color: #F8E71C
+}

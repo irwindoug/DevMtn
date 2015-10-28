@@ -1,0 +1,53 @@
+/*Rows*/
+.top{
+    height: 100px;
+    flex: 1;
+}
+.container{
+    display: flex;
+}
+.row1{
+    height: 150px;
+    display: inline-block;
+    float: left;
+    margin-bottom: 25px;
+}
+.bottom{
+    height: 75px;
+    display: inline-block;
+    float: left;
+}
+/*Shapes*/
+.square1{
+    width: 30%;
+}
+.square2{
+    width: 16%;
+    padding-left:2%;
+    padding-right: 2%;
+}
+.square3{
+    width:100%;
+}
+.square4{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.rectangle1{
+    width: 70%;
+}
+.rectangle2{
+    width: 80%;
+}
+/*Colors*/
+.red{
+    background-color: #D0021B;
+}
+
+.blue{
+    background-color: #4A90E2;
+}
+
+.grey{
+    background-color: #4A4A4A
+}

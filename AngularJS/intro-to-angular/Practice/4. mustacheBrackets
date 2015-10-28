@@ -1,0 +1,33 @@
+//Show the title
+
+$scope.title = "Winning!"
+
+<h2></h2>
+
+*****************************************************
+
+Show this dancers stage name:
+
+$scope.dancer = {
+	name: 'Bob',
+	stageName: 'Sparkles'
+}
+
+<span> </span>
+
+*****************************************************
+
+Show the stage name for the second dancer in the array
+
+$scope.dancers = [
+	{
+		name: 'Bob',
+		stageName: 'Sparkles'
+	},
+	{
+		name: 'Julia',
+		stageName: 'Pancakes'
+	}
+]
+
+<div>Up Next : <span>   <span>

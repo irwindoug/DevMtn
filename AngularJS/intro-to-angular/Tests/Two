@@ -1,0 +1,24 @@
+Explain each of the following:
+
+ng-app
+Hooks into the HTML
+ng-controller 
+The controller of the HTML
+$scope
+ng-model 
+Two-way binding
+{{}}- double mustache brackets
+ng-repeat
+Displays multiple views of single code
+filters
+Filters through the Data
+General Overview of Services and Directives
+ng-show (Not in Video)
+Handles whether or not to show object if the statement is not true
+ng-click
+Handles a click
+Directives
+Key/power-tools of Angular
+-Lives in the view
+ng-cloak
+Doesn’t show code on page

@@ -1,0 +1,34 @@
+body{
+    font-family: Arial;
+}
+header, footer{
+    height: 75px;
+    width: 100%;
+    background-color: #333333;
+}
+header{
+    padding-left: 30px;
+}
+.container{
+    display: flex;
+    padding-bottom: 75px;
+    padding-top: 75px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+img{
+    max-width: 100%;
+}
+.box{
+    flex: 1;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+li{
+    color: white;
+    list-style: none;
+    display: inline-block;
+    margin: 25px;
+    font-weight: bolder;
+}

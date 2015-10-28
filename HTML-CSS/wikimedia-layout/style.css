@@ -1,0 +1,49 @@
+.intro p{
+   font-size: 150%;
+   width: 100%;
+}
+.boldText{
+    font-weight: bold;
+}
+.welcome{
+    text-align: right;
+}
+.intro{
+    width: 90%;
+    margin: auto;
+    padding: .5em 1em;
+}
+/**/
+.logos .row{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+}
+img{
+    max-width: 135px;
+    height: auto;
+    box-sizing: inherit;
+    margin: 7px;
+    padding: 6.5px 13px;
+}
+
+/*Footer*/
+footer{
+    width: 70%;
+    margin: 10px auto;
+    border-top: 1px solid #AAA;
+    display: block;
+    text-align: center;
+    font: 13px sans-serif;
+    padding: 0;
+}
+footer li{
+    display: inline;
+    margin: 0 10px;
+    padding: 0;
+    text-align: center;
+    list-style: none;
+    font: 13px sams-serif;
+}

@@ -1,0 +1,41 @@
+//Your app is called myApp
+//Create a controller called myController
+
+
+//Instantiate that controller in the html on the body
+
+<body>
+
+</body>
+
+*****************************************************
+
+//Your app is called myApp
+//Create a controller called myController that takes a dependency called 'myService' using implicit notation
+
+
+//Instantiate that controller in the html on a div
+
+<div>
+
+</div>
+***************************************************** 
+
+//Your app is called tAppDance
+//Create a controller called myController that takes a dependency named 'gettingDown' with an arg name of 'danceMoves'
+
+
+//Instantiate that controller in the html on a div
+<div>
+
+</div>
+
+
+// Initialize a variable called 'performer' with a value of 'Tappy McTapster' that is visible to the dom
+// Use mustache brackets to show that value in the above div
+
+*****************************************************
+
+
+
+

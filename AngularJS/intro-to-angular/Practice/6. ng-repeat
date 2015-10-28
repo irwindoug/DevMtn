@@ -1,0 +1,44 @@
+//Make a rainbow
+
+$scope.colors = ['red', 'orange', 'yellow', 'green', 'blue', 'purple']
+
+<div></div>
+
+
+*****************************************************
+
+//Show everyone's super hero name
+
+$scope.heroes = [
+	{
+		name: 'Natasha',
+		alias: 'Black Widow'
+	},
+	{
+		name: 'Bruce',
+		alias: 'Hulk'
+	}
+]
+
+<div>
+
+</div>
+
+***************************************************** 
+
+//Show everyone's super hero name followed by a colon followed by their name
+
+$scope.heroes = [
+	{
+		name: 'Natasha',
+		alias: 'Black Widow'
+	},
+	{
+		name: 'Bruce',
+		alias: 'Hulk'
+	}
+]
+
+<div>
+
+</div>

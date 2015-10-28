@@ -1,0 +1,19 @@
+<html ng-app="thisIsMyApp">
+<body ng-controller="mainCtrl">
+    <div ng-repeat="employee in employees">
+        <span>
+            <span>
+                <strong>{{employee.name | uppercase}}</strong>
+                {{employee.email}}
+                {{employee.dateEmployed | date}}
+                {{employee.phone}}
+            </span>
+        </span>
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.js"></script>
+    <script src="app.js"></script>
+    <script src="controller.js"></script>
+    <script src="service.js"></script>
+</body>
+</html>

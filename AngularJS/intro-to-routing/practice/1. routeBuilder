@@ -1,0 +1,40 @@
+//I have a route called people , replace the ...
+
+.config(['$routeProvider',
+  function($routeProvider) {
+    $routeProvider.
+      when( ...  , {
+        templateUrl: 'templates/list_of_people.html',
+        controller: 'PeopleListController'
+    })
+
+//I have a route called people and I'm looking at 1 person, replace the ...
+
+.config(['$routeProvider',
+  function($routeProvider) {
+    $routeProvider.
+      when( ... , {
+        templateUrl: 'templates/person_details.html',
+        controller: 'PersonDetailsController'
+    })
+
+//I have a route called settings, replace the ...
+
+.config(['$routeProvider',
+  function($routeProvider) {
+    $routeProvider.
+      when( ... , {
+        templateUrl: 'templates/settings.html',
+        controller: 'SettingsController'
+    })
+
+//I have a route called people and I'm looking at 1 person.  I also have a sub-route called activities and I'm looking at a specific activity, replace the ...
+
+
+.config(['$routeProvider',
+  function($routeProvider) {
+    $routeProvider.
+      when( ... , {
+        templateUrl: 'templates/activity.html',
+        controller: 'ActivityController'
+    })

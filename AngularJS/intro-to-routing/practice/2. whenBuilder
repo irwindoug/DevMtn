@@ -1,0 +1,40 @@
+//I need to use a PeopleListController and a list_of_people template, replace the ...
+
+.config(['$routeProvider',
+  function($routeProvider) {
+    $routeProvider.
+      ...  ( '/people' , {
+        templateUrl: '...',
+        controller: '...'
+    })
+
+//I have a route called people and I'm looking at 1 person, replace the ...
+
+.config(['$routeProvider',
+  function($routeProvider) {
+    $...
+      ... ( '/people/:peopleId' , {
+        templateUrl: '...',
+        controller: '...'
+    })
+
+//I have a route called settings with a matching controller and template, replace the ...
+
+.config(['$routeProvider',
+  function(...) {
+    ...
+      ...( '/settings' , {
+        ...: '...',
+        ...: '...'
+    })
+
+//I have a route called people and I'm looking at 1 person.  I also have a sub-route called activities and I'm looking at a specific activity, replace the ...
+
+
+....(['$...',
+  function(...) {
+    ....
+      ...( '/people/:peopleId/activity/:activityId' , {
+        ...,
+        ...
+    })

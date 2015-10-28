@@ -1,0 +1,18 @@
+<html ng-app="apiApp">
+<body ng-controller="mainCtrl">
+    <div ng-repeat="starship in starships">
+        <h3>{{starship.name}}</h3>
+        <ul>
+            <li>{{starship.model}} | {{starship.manufacturer}}</li>
+            <li>Crew Required: {{starship.crew}}</li>
+            <li>Max-Passengers: {{starship.passengers}}</li>
+            <li>Cargo Capacity: {{starship.cargo_capacity}}</li>
+            <li>Supply Space: {{starship.consumables}}</li>
+        </ul>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
+    <script src="app.js"></script>
+    <script src="controller.js"></script>
+    <script src="service.js"></script>
+</body>
+</html>
